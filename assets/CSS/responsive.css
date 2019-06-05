@@ -1,0 +1,19 @@
+@media (max-width: 1459px) {
+  .landing-navbar {
+    padding: 15px;
+  }
+}
+
+
+@media (max-width: 1024px) {
+  .menu {
+    width: 35%;
+  }
+}
+
+
+@media (max-width: 769px) {
+  .menu {
+    width: 45%;
+  }
+}
