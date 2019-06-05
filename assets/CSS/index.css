@@ -6,17 +6,31 @@
   margin: auto;
 }
 
+.logo {
+  display: flex;
+  flex-direction: row;
+}
+
+.logo>h1 {
+  margin: auto 10px;
+}
+
 .logo>img {
-  height: 60px;
+  height: 50px;
   border-radius: 50%;
 }
 
 .menu {
-  width: 25%;
   margin: auto  0;
 }
 
+.menu.product {
+  padding-top: 4px;
+}
+
+
 .menu-list {
+  align-items: center;
   display: flex;
   flex-direction: row;
   flex-grow: 0;
@@ -25,12 +39,33 @@
   list-style-type: none;
 }
 
-.menu-list>li {
-  width: 100%;
+.dropdown>div>p {
+  font-size: 16px;
+  margin: 0px;
 }
 
 .dropdown {
-  padding: 8px 0px;
+  padding: 8px 8px;
+  display: inline-flex;
+}
+
+.dropdown>div {
+  padding: 4px 4px;
+}
+
+.demo>p {
+  color: #1EDD88;
+  margin: 0px;
+}
+
+.expend {
+  transition: background 0.3s ease;
+  border: none;
+  transform: rotate(90deg);
+}
+
+.expend:hover {
+  transform: rotate(-90deg);
 }
 
 .landing-content {
@@ -45,6 +80,11 @@
   background: #1EDD88;
   transition: background 0.3s ease;
   border: none;
+}
+
+.button.download>p{
+  font-size: 16px;
+  margin: 0px;
 }
 
 .bannerPico {
@@ -71,6 +111,9 @@
 
 .picoFirst-wrapper {
   padding: 0px 200px;
+  box-shadow: 0 0 1px 0 rgba(0,0,0,.22);
+  padding-top: 40px;
+  /*border-radius: 8px;*/
 }
 
 .wrappLeft {

@@ -2,18 +2,21 @@
   .landing-navbar {
     padding: 15px;
   }
+  .menu.link {
+    margin: auto 10px;
+  }
 }
 
 
 @media (max-width: 1024px) {
-  .menu {
-    width: 35%;
+  .menu.link {
+    margin: auto 10px;
   }
 }
 
 
 @media (max-width: 769px) {
   .menu {
-    width: 45%;
+    /*width: 45%;*/
   }
 }
