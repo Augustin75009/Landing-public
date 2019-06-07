@@ -8,12 +8,18 @@
   #picoFooter {
     padding: 80px 15px;
   }
+  .picoFirst-wrapper {
+    padding: 0px 150px;
+  }
 }
 
 
 @media (max-width: 1024px) {
   .menu.link {
     margin: auto 10px;
+  }
+  .picoFirst-wrapper {
+    padding: 0px 100px;
   }
 }
 
