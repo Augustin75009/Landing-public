@@ -13,6 +13,7 @@ p {
   position: sticky;
   top: 0;
   background: white;
+  z-index: 10;
 }
 
 
@@ -213,8 +214,17 @@ p {
 }
 
 .banner>img {
-  box-shadow: 50px 50px 50px rgba(0,0,0,0.1);
+  box-shadow: 50px 35px 50px rgba(0,0,0,0.1);
   border-radius: 0px 0px 8px 8px;
+}
+
+.small-logo {
+  height: 50px;
+  margin-bottom: 10px;
+}
+
+.opacity-logo {
+  opacity: 0.7;
 }
 
 .benefitList-wrapper {
@@ -226,21 +236,21 @@ p {
 }
 
 .benefitList-wrapper>div {
-  box-shadow: 0 -1px 10px rgba(0,0,0,0.1);
+  /*box-shadow: 0 -1px 10px rgba(0,0,0,0.1);*/
+  /*box-shadow: 0 -1px 30px rgba(0,0,0,0.2);*/
   width: 30%;
   text-align: center;
   border-radius: 8px;
   padding: 20px;
 }
 
-.benefitList-wrapper>div>h3 {
-  line-height: 32px;
+.benefitList-wrapper>div>h4 {
   color: #1EDD88;
 }
 
 .picoFirst-wrapper {
   padding: 0px 200px;
-  box-shadow: 0px 10px 18px rgba(0,0,0,0.1);
+  box-shadow: 0px 10px 60px rgba(0,0,0,0.1);
   padding-top: 40px;
   border-radius: 8px;
   padding-top: 40px !important;
@@ -264,11 +274,6 @@ p {
   width: 500px !important;
 }
 
-/*.wrappLeft.xxl {
-  margin-right: 60px;
-}
-*/
-
 .wrapp>img {
   float: right;
   width: 400px;
@@ -282,8 +287,6 @@ p {
   display: flex;
   flex-direction: row-reverse;
   justify-content: flex-start;
-  /*padding: 0px 100px;*/
-  /*margin: 40px 100px;*/
 }
 
 .content-flex>div>img {
@@ -331,7 +334,7 @@ p {
 #picoFooter {
   margin-top: 80px;
   padding: 80px 0px;
-  background: -webkit-linear-gradient(left, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 64%, rgba(237,237,237,1) 100%);
+  background: -webkit-linear-gradient(left, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 15%, rgba(246,246,246,1) 64%, rgba(237,237,237,1) 100%);
 }
 
 .footer-wrapper {
