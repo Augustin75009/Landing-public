@@ -194,6 +194,10 @@ p {
   justify-content: flex-end;
 }
 
+.banner>img {
+  height: 500px;
+}
+
 .banner-catch {
   margin: auto;
   max-width: 400px;
@@ -231,7 +235,7 @@ p {
 
 .benefitList-wrapper>div>h3 {
   line-height: 32px;
-  color: #2c9474;
+  color: #1EDD88;
 }
 
 .picoFirst-wrapper {
@@ -296,7 +300,7 @@ p {
 }
 
 .complete.third {
-  height: 50px;
+  height: 150px;
   text-align: center;
 }
 
