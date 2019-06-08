@@ -1,3 +1,5 @@
+/* ---- screens ---- */
+
 @media (max-width: 1459px) {
   .landing-navbar {
     padding: 15px;
@@ -24,8 +26,57 @@
 }
 
 
-@media (max-width: 769px) {
-  .menu {
-    /*width: 45%;*/
+@media (max-width: 800px) {
+  .banner>img {
+    display: none !important;
+  }
+  .banner-catch {
+    padding: 50px !important;
+    max-width: 800px !important;
+  }
+  .benefitList-wrapper {
+    padding: 20px !important;
+    margin: 20px !important;
+  }
+  .wrappLeft>img, .wrappLeft.xxl>img, .wrapp>img {
+    width: 100%  !important;
+    margin-bottom: 40px !important;
+  }
+  .picoFirst-wrapper {
+    padding: 0px 50px !important;
+  }
+  .complete.third {
+    height: 50px !important;
+  }
+  .complete.fourth {
+    height: 50px !important;
+  }
+}
+
+@media (max-width: 500px) {
+  .banner>img {
+    display: none !important;
+  }
+  .banner-catch {
+    padding: 50px !important;
+    max-width: 800px !important;
+  }
+  .benefitList-wrapper {
+    flex-direction: column !important;
+    align-items: center !important;
+  }
+  .benefitList-wrapper>div {
+    width: 50% !important;
+  }
+}
+
+
+
+
+/* ---- responsive ---- */
+
+@media (max-width: 1340px) {
+  .banner-catch {
+    padding-left: 20px;
   }
 }

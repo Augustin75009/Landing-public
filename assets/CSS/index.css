@@ -6,6 +6,14 @@ p {
   color: #1EDD88;
 }
 
+a:hover {
+  text-decoration: none !important;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
 
 /* ----- Head ----- */
 
@@ -84,12 +92,17 @@ p {
   font-size: 16px;
 }
 
+.demo>a:hover{
+  opacity: 0.5 !important;
+}
+
 
 .button>a {
   color: white !important;
   margin: 0px;
   text-decoration: none;
   font-size: 16px;
+  font-weight: 500;
 }
 
 .demo>p {
@@ -177,6 +190,7 @@ p {
   background: #1EDD88;
   transition: background 0.3s ease;
   border: none;
+  margin-bottom: 10px;
 }
 
 .button.download>p{
@@ -204,9 +218,17 @@ p {
   max-width: 400px;
 }
 
+.download>a {
+  font-weight: 500;
+}
+
 .white {
   background: white !important;
   box-shadow: 0 -1px 10px rgba(0,0,0,0.1);
+}
+
+.white:hover {
+  background: #1edd880f !important;
 }
 
 .white>a {
@@ -253,7 +275,7 @@ p {
   box-shadow: 0px 10px 60px rgba(0,0,0,0.1);
   padding-top: 40px;
   border-radius: 8px;
-  padding-top: 40px !important;
+  padding-top: 50px !important;
 }
 
 .wrappLeft {
